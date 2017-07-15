@@ -1,4 +1,4 @@
-# create a file named Dockerfile
+
 FROM node:alpine
 RUN mkdir /app
 
