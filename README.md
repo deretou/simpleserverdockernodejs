@@ -14,7 +14,7 @@ Install [Docker Compose](http://docs.docker.com/compose/) on your system.
 Run `docker-compose build`. It will
 
 * install all dependencies from the package.json locally
-* expose port 3007 to the host.
+* expose port 3007 to the host (you can change it for port 80).
 
 ## Start
 
