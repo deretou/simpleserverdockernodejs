@@ -1,0 +1,8 @@
+version: "2"
+services:
+  appdirect:
+    build: .
+    volumes:
+      - ./app:/app
+    ports:
+      - "3007:3007"
