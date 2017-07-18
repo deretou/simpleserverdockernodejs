@@ -1,2 +1,4 @@
 node_modules
 npm-debug.log
+create-docker-vm-azure.ps1
+deploy-on-docker-vm-azure.ps1
