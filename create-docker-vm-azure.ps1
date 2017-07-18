@@ -1,5 +1,5 @@
 docker-machine.exe create --driver azure `
-  --azure-subscription-id "18ddd586-6340-4658-b004-a7d6c80565e6" `
+  --azure-subscription-id "" `
   --azure-ssh-user "azureuser" `
   --azure-size Standard_A1 `
   --azure-open-port 80 `
