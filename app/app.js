@@ -7,6 +7,6 @@ function handler (req, res) {
  res.end();
 }
 
-http.listen(3007, function(){
+http.listen(80, function(){
   console.log('AppDirect Platform server listening on port 3007!');
 });
