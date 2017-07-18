@@ -9,13 +9,9 @@ Install [Docker](https://www.docker.com/) on your system.
 Install [Docker Compose](http://docs.docker.com/compose/) on your system.
 
 
-## Setup
+## Setup & Run 
 
-Run `docker-compose build`. It will
+* Run `.\create-docker-vm-azure.ps1` on Powershell to create a docker-machine on azure cloud (pay attention on your subscription ID)
+* Then run  `docker-machine env appdocker | Invoke-Expression` (there some bug with docker-machine create ...)
+* Finally run `.\cdeploy-on-docker-vm-azure.ps1` 
 
-* install all dependencies from the package.json locally
-* expose port 3007 to the host (you can change it for port 80).
-
-## Start
-
-Run `docker-compose up` to create and start the container. The app should then be running on your docker daemon on port 3007.
