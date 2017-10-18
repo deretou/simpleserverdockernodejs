@@ -13,5 +13,5 @@ Install [Docker Compose](http://docs.docker.com/compose/) on your system.
 
 * Run `.\create-docker-vm-azure.ps1` on Powershell to create a docker-machine on azure cloud (pay attention on your subscription ID)
 * Then run  `docker-machine env appdocker | Invoke-Expression` (there are some bugs with docker-machine create ...)
-* Finally run `.\cdeploy-on-docker-vm-azure.ps1` 
+* Finally run `.\deploy-on-docker-vm-azure.ps1` 
 
